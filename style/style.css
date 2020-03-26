@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #38381E;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #F8F684;
+    }
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;    
+}
+
+/* About Us section --> */
+
+.about {
+padding: 1rem;
+background-color: #F79C77;
+overflow: auto;
+}
+
+/* --> End of About Us section */
+
+/* List of Students and Button sections --> */
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list, .button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 33rem;
+    overflow: auto;
+    float: left;
+}
+
+/* List itself (for 21 persons) --> */
+
+.list {
+    background-color: #EBCDF7;    
+    width: 60%;
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    padding-left: 2rem;;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+/* --> End of List itself */
+
+.button {    
+    background-color: #CBC2F8;
+    width: 40%;
+}
+
+/* Button itself --> */
+
+button {
+    margin: 6rem auto;
+    padding: 4.5rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 900;
+    background-color: #7DC454;
+    display: block;
+    cursor: pointer;
+    box-shadow: 6px 9px #999;
+}
+
+button:hover {
+    background-color: #558539;
+}
+
+button:active {
+    background-color: #558539;
+    box-shadow: 3px 5px #666;
+    transform: translateY(4px);
+}
+
+/* --> End of Button itself */
+
+/* --> End of List of Students and Button sections */
+
+/* Footer --> */
+
+footer {
+    padding: 1rem;
+    background-color: #A96AF7;
+    clear: both;
+}
+
+/* --> End of Footer */
